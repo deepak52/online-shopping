@@ -1,0 +1,85 @@
+.clr {
+    clear: both;
+}
+.reg-wr {
+    margin-top: 30px;
+    text-align: right;
+}
+.register-wrap {
+    width: 60%;
+}
+.register {
+    background-color: #AD1B02;
+    color: #fff;
+    border: 1px solid #AD1B02;
+    outline: none;
+    width: 150px;
+    height: 60px;
+    text-align: center;
+    font-size: 16px;
+}
+.login-form {
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+    transform: translateY(50%);
+}
+
+.login-form label {
+    font-weight: bold;
+    font-size: 1.2em;
+    display: block;
+    padding-bottom: 8px;
+}
+
+.login-form .login-wrap {
+    margin-right: 20px;
+}
+
+.login-form .login-title h3 {
+    color: #AD1B02;
+    font-size: 24px;
+    font-weight: normal;
+    font-family: Georgia;
+}
+.active {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+.login-error{
+    color: #AD1B02;
+    font-size: 16px;
+    font-family: Georgia;
+}
+
+.message{
+    color: #333333;
+    font-size: 16px;
+    font-family: Georgia;
+}
+
+.forgotpwd:hover{
+    color: #AD1B02;
+}
+
+.actions a:hover{
+    color: #AD1B02;
+}
+
+.login_submit {
+    background-color: #ee6e73;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px;
+    border-radius:5px;
+}
+
+.control-fields {
+    display: flex;
+    justify-content: center;
+}
